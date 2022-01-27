@@ -131,7 +131,7 @@
 @media (max-width: 600px) {
   .search input {
     margin-right: 0;
-    margin-bottom: 50rem;
+    margin-bottom: 5rem;
   }
   .grid {
     width: 100%;
