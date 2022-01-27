@@ -89,7 +89,9 @@ export default function Home({data}) {
         <h1 className={styles.title}>
          Wubba Lubba Dub dub!
         </h1>
-
+        <p>
+          <img src="/rick.png" alt='rick' />
+        </p>
         <p className={styles.description}>
           Rick and Morty Wiki!
         </p>
@@ -98,7 +100,8 @@ export default function Home({data}) {
         <button>Search</button>
       </form>
         <ul className={styles.grid}>
-          {results?.map(result => {
+          {
+          results?.map(result => {
             const {id , name , image} = result;
 
             return ( 
