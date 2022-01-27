@@ -98,7 +98,7 @@ export default function Home({data}) {
         <button>Search</button>
       </form>
         <ul className={styles.grid}>
-          {results.map(result => {
+          {results?.map(result => {
             const {id , name , image} = result;
 
             return ( 
