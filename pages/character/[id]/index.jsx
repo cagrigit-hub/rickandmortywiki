@@ -19,7 +19,7 @@ export async function getServerSideProps({query}){
 export default function Character({data,query}) {
   const {name,image,gender,location,origin,species,status} = data;
   const randomNumGenerator = () => {
-    let random = Math.floor(Math.random() * 827);
+    let random = Math.floor(Math.random() * 826) + 1;
     return random;
   }
   return (
