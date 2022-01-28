@@ -103,7 +103,7 @@ export default function Home({data}) {
 
 
   return (
-    <div className={styles.container + " flex justify-center items-center"}>
+    <div className={styles.container}>
       <Head>
         <title>Wubba Lubba Dub dub!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>

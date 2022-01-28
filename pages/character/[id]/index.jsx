@@ -23,7 +23,7 @@ export default function Character({data,query}) {
     return random;
   }
   return (
-    <div className={styles.container + " flex justify-center items-center"}>
+    <div className={styles.container + ""}>
       <Head>
         <title>{name}</title>
         <link rel="icon" href="/favicon.ico" />
