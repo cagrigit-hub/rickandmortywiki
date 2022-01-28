@@ -103,7 +103,7 @@ export default function Home({data}) {
 
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container + " flex"}>
       <Head>
         <title>Wubba Lubba Dub dub!</title>
         
