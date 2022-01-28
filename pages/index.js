@@ -106,7 +106,7 @@ export default function Home({data}) {
     <div className={styles.container}>
       <Head>
         <title>Wubba Lubba Dub dub!</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
